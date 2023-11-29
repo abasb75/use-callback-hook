@@ -13,7 +13,7 @@ function App() {
 
         <Route path="/counter-without-use-callback" element={<CounterWithoutUseCallback />} />
         <Route path="/counter-with-use-callback" element={<CounterWithUseCallback />} />
-
+        
       </Routes>
     </BrowserRouter>
   </Suspense>);
